@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferente tamanhos de imagens em diferentes tamanhos de tela</title>
+</head>
+<body>
+    <h1>Imagens e tamanhos :O</h1>
+    <p>veja aí:</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="foto-p.png">
+        <source media="(max-width:1050px)" srcset="foto-m.png">
+        <img src="foto-g.png" alt="">
+    </picture>
+</body>
+</html>
